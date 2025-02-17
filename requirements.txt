@@ -4,6 +4,6 @@ BeautifulSoup4
 selenium
 telethon
 termcolor
-dotenv
+python-dotenv
 requests-toolbelt
 google
