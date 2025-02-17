@@ -16,5 +16,15 @@
    TELE_SESSION=""
    GTC_COOKIES="<getcontact.json_location>"
    ```
+   
+   Example:
 
-6. Run it again
+   ```
+   TELE_ID="12345"
+   TELE_HASH="23424ad24ad32b3242"
+   TELE_NUMBER="6280000000000"
+   TELE_SESSION=""
+   GTC_COOKIES="getcontact.json"
+   ```
+
+7. Run it again
