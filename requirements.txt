@@ -1,0 +1,9 @@
+requests
+urllib3
+BeautifulSoup4
+selenium
+telethon
+termcolor
+dotenv
+requests-toolbelt
+google
