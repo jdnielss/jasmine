@@ -2,22 +2,10 @@
 ✿ jasmine
 ```
 
-## Dependency
-```
-requests
-urllib3
-BeautifulSoup4
-selenium
-telethon
-termcolor
-dotenv
-requests-toolbelt
-google
-```
-
 ## Setup
-1. Run ```jasmine.py``` and complete setup with any query
-2. Create ```.env``` file with:
+1. Run ```pip install -r requirements.txt```
+2. Run ```jasmine.py``` and complete setup with any query
+3. Create ```.env``` file with:
 
    ```
    TELE_ID="<your_telegram_id>"
@@ -27,4 +15,4 @@ google
    GTC_COOKIES="<getcontact.json_location>"
    ```
 
-3. Run it again
+4. Run it again
