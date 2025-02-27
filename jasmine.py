@@ -206,10 +206,10 @@ print(f"\n {colored("✿", "magenta")} Jasmine")
 query = input(f"   {colored("➥", "cyan")} Search   : ")
 if not os.path.exists(f'result/{query}'): os.makedirs(f'result/{query}')
 if query.startswith('08'):
-    Caller.Info(query)
+    #Caller.Info(query)
     Lookup.Wallet(query)
     Social.Lookup(query)
-    Caller.Tags(query)
+    #Caller.Tags(query)
 elif query.isnumeric(): Lookup.Bank(query)
 elif "@" in query:
     Social.Lookup(query)
